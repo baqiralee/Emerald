@@ -3,21 +3,36 @@
 namespace Emerald.Library.Models
 {
     /// <summary>
-    /// This class will store the details about the all the Bookings of Emerald
+    /// Represents a booking made by a user at Emerald.
+    /// This class stores details about the booking, including the 
+    /// dates, duration of stay, and associated accommodation.
     /// </summary>
-
     [Serializable]
     public class Booking : BaseEmerald
     {
-        public DateTime FromDate { get; set; }
+        /// <summary>
+        /// Gets or sets the start date of the booking.
+        /// Indicates when the user intends to begin their stay.
+        /// </summary>
+        public DateTime StartDate { get; set; }
 
         /// <summary>
-        /// Total no of nights the user will stay
+        /// Gets or sets the total number of nights the user will stay.
+        /// This value is calculated based on the booking duration.
         /// </summary>
         public int Duration { get; set; }
 
         // Reference properties
+
+        /// <summary>
+        /// Gets or sets the identifier for the associated accommodation.
+        /// Each booking must be linked to at least one accommodation.
+        /// </summary>
         public int AccommodationId { get; set; }
-        public Accommodation Accommodation { get; set; }
+
+        /// <summary>
+        /// Navigation property for the associated accommodation.
+        /// </summary>
+        public virtual Accommodation Accommodation { get; set; }
     }
 }
