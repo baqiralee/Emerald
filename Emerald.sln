@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emerald", "Emerald\Emerald.csproj", "{7A63EBEB-9A8C-4872-9C52-980D3C5B680E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emerald.Library", "Emerald.Library\Emerald.Library.csproj", "{C088C905-8FE0-4A81-A444-69C1F64FAE4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{7A63EBEB-9A8C-4872-9C52-980D3C5B680E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A63EBEB-9A8C-4872-9C52-980D3C5B680E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A63EBEB-9A8C-4872-9C52-980D3C5B680E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C088C905-8FE0-4A81-A444-69C1F64FAE4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C088C905-8FE0-4A81-A444-69C1F64FAE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C088C905-8FE0-4A81-A444-69C1F64FAE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C088C905-8FE0-4A81-A444-69C1F64FAE4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1397F8CF-4B2C-48B7-B612-EE632024BFC2}
 	EndGlobalSection
 EndGlobal
