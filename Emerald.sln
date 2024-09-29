@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emerald.Library", "Emerald.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emerald.DbConfiguration", "Emerald.DbConfiguration\Emerald.DbConfiguration.csproj", "{D2508082-BBD1-444E-9CB6-016D0FCE0B32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emerald.Security", "Emerald.Security\Emerald.Security.csproj", "{C0F516CB-24CE-4B72-A2EA-431B1794049D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{D2508082-BBD1-444E-9CB6-016D0FCE0B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2508082-BBD1-444E-9CB6-016D0FCE0B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2508082-BBD1-444E-9CB6-016D0FCE0B32}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C0F516CB-24CE-4B72-A2EA-431B1794049D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0F516CB-24CE-4B72-A2EA-431B1794049D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0F516CB-24CE-4B72-A2EA-431B1794049D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0F516CB-24CE-4B72-A2EA-431B1794049D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

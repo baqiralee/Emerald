@@ -25,8 +25,8 @@ namespace Emerald.DbConfiguration.Configurations
             // Name property configuration
             Property(prop => prop.Name)
                 .HasColumnName("Name")
-                .HasMaxLength(50)
                 .HasColumnType("nvarchar")
+                .HasMaxLength(50)
                 .HasColumnOrder(6)
                 .IsRequired();
 
