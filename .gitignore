@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Emerald
+/Emerald/bin
+/Emerald/obj/Debug
+/packages
+/Emerald.Library/obj/Debug
+/Emerald.DbConfiguration/obj/Debug
+/Emerald.Library/bin/Debug
+/Emerald.DbConfiguration/bin/Debug
