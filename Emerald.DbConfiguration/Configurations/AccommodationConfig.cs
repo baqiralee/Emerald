@@ -38,13 +38,17 @@ namespace Emerald.DbConfiguration.Configurations
                 .HasColumnOrder(7)
                 .IsRequired();
 
+            // AccommodationPackageId property configuration
+            Property(prop => prop.AccommodationPackageId)
+                .HasColumnOrder(8);
+
             // IsDeleted property display order configuration
             Property(prop => prop.IsDeleted)
-                .HasColumnOrder(8);
+                .HasColumnOrder(9);
 
             // IsActive property display order configuration
             Property(prop => prop.IsActive)
-                .HasColumnOrder(9);
+                .HasColumnOrder(10);
 
             // One-to-many relationship configuration
             HasMany(a => a.Bookings)                       // Configures the one-to-many relationship

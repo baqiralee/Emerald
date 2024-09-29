@@ -31,17 +31,21 @@ namespace Emerald.DbConfiguration.Configurations
             // Duration property configuration
             Property(prop => prop.Duration)
                 .HasColumnName("Duration")
-                .HasColumnName("int")
+                .HasColumnType("int")
                 .HasColumnOrder(7)
                 .IsRequired();
 
+            // AccommodationId property configuration
+            Property(prop => prop.AccommodationId)
+                .HasColumnOrder(8);
+
             // IsDeleted property display order configuration
             Property(prop => prop.IsDeleted)
-                .HasColumnOrder(8);
+                .HasColumnOrder(9);
 
             // IsActive property display order configuration
             Property(prop => prop.IsActive)
-                .HasColumnOrder(9);
+                .HasColumnOrder(10);
         }
     }
 }

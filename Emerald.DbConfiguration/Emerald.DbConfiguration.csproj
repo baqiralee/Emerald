@@ -56,6 +56,11 @@
     <Compile Include="Configurations\BaseEmeraldConfig.cs" />
     <Compile Include="Configurations\BookingConfig.cs" />
     <Compile Include="EmeraldContext.cs" />
+    <Compile Include="Migrations\202409290008001_Database-Init.cs" />
+    <Compile Include="Migrations\202409290008001_Database-Init.Designer.cs">
+      <DependentUpon>202409290008001_Database-Init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -68,7 +73,11 @@
       <Name>Emerald.Library</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202409290008001_Database-Init.resx">
+      <DependentUpon>202409290008001_Database-Init.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
